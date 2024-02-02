@@ -72,10 +72,10 @@
   border-radius: 426.18px;
   filter: blur(221.57px);
   height: 852px;
-  left: -523px;
+  left: -400px;
   opacity: 0.6;
   position: absolute;
-  top: 232px;
+  top: 40%;
   transform: rotate(75deg);
   width: 100%;
 }
@@ -165,7 +165,7 @@
   font-size: 12px;
   font-weight: 400;
   letter-spacing: 0;
-  line-height: 20.4px;
+  line-height: 1.2rem;
   text-align: center;
   width: 60%;
 }
@@ -181,7 +181,7 @@
 }
 
 .certificate-of .group-2 {
-  margin-top: 1rem;
+  margin-top: 3rem;
   text-align: center;
   
 }
@@ -202,6 +202,7 @@
   font-weight: 300;
   left: 26px;
   letter-spacing: 0;
+  line-height: 4rem;
   white-space: nowrp;
 }
 
@@ -215,66 +216,39 @@
   width: 100%;
   max-width: 760px;
 }
-@media screen and (max-width: 850px) { 
+
+@media screen and (max-width: 750px) { 
   /* reduce all font-size */
+  .certificate-of .group-2 {
+    margin-top: 2rem;
+    
+  }
+  .certificate-of .group {
+    margin: 1% 0;
+  }
   .certificate-of .text-wrapper-5 {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .certificate-of .text-wrapper-6 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+    line-height: normal;
   }
   .certificate-of .text-wrapper-4 {
     font-size: 1rem;
   }
   .certificate-of .text-wrapper-2 {
-    font-size: 0.8rem;
-  }
-  .certificate-of .text-wrapper-3 {
-    font-size: 0.7rem;
-  }
-  .certificate-of .nombre {
-    font-size: 40px;
-  }
-  .certificate-of .p {
-    font-size: 10px;
-  }
-  .certificate-of .div {
-    font-size: 12px;
-  }
-  .certificate-of .text-wrapper {
-    font-size: 0.8rem;
-  }
-  .certificate-of .group {
-    margin-top: 1rem;
-    text-align: center;
-    
-  }
-  .certificate-of .sello {
-    width: 20%;
-  }
-}
-@media screen and (max-width: 700px) { 
-  /* reduce all font-size */
-  .certificate-of .text-wrapper-5 {
-    font-size: 2.5rem;
-  }
-  .certificate-of .text-wrapper-6 {
-    font-size: 2.5rem;
-  }
-  .certificate-of .text-wrapper-4 {
-    font-size: 0.8rem;
-  }
-  .certificate-of .text-wrapper-2 {
-    font-size: 0.7rem;
+    font-size: 0.6rem;
   }
   .certificate-of .text-wrapper-3 {
     font-size: 0.6rem;
   }
   .certificate-of .nombre {
-    font-size: 30px;
+    font-size: 2.5rem;
+    margin: 1% 0;
   }
   .certificate-of .p {
-    font-size: 8px;
+    font-size: 0.8rem;
+    margin: 1% 0;
   }
   .certificate-of .div {
     font-size: 10px;
@@ -294,7 +268,11 @@
   }
 }
 
-@media screen and (max-width: 515px) { 
+@media screen and (max-width: 550px) {
+  .certificate-of .group-2 {
+    margin-top: 1rem;
+    
+  } 
   /* reduce all font-size */
   .certificate-of .text-wrapper-5 {
     font-size: 2rem;
